@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Jost", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-body-background);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+html {
+  --color-body-background: #f3f3f3;
+  --color-orange: #ffd280;
+  --color-blue: #b4b7ff;
+  --color-green: rgb(151, 234, 185);
+  --color-pink: rgb(255, 134, 142);
+  --switch-bg: rgba(255, 134, 142, 0.25);
+  --color-drop-area: #fbe0dc;
+  --color-drop-area-info: #fff;
+  --color-border: rgba(255, 255, 255, 0.6);
+  --color-border-active: #fbe0dc;
+  --color-btn-default: #fff;
+  --font-color: #fff;
+  --color-card-bg: #fff;
+  --color-home-bg: #fbe0dc;
+  --color-btn-hover: #fbe0dc;
+  --color-subtitle: #8c8c8c;
+  --color-select: #f8f8f7;
+  --color-select-input: #fff;
+  --color-select-border-hover: #fbe0dc;
+  --font-color-main: #1d1d1d;
+  --color-bg-modal: #f8f8f7;
+  --transition: all 0.2s linear;
+}
+
+html[data-theme="dark"] {
+  --color-body-background: #1d1d1d;
+  --color-drop-area: rgba(255, 134, 142, 0.25);
+  --color-home-bg: rgba(255, 255, 255, 0.05);
+  --color-btn-default: #282828;
+  --color-card-bg: #282828;
+  --color-bg-modal: #282828;
+  --font-color-main: #fff;
+  --color-drop-area-info: rgba(255, 255, 255, 0.1);
+  --color-select: rgba(255, 255, 255, 0.1);
+  --color-select-input: #1d1d1d;
+  --color-select-border-hover: rgb(0, 0, 0);
+}
+
+svg path.fontcolor {
+  fill: var(--font-color-main);
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms linear;
+  transition-delay: 0;
+}
+
+main {
+  margin: 1.875rem;
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+  overflow-x: hidden;
+}
+
+select {
+  background-color: var(--color-select);
+  border: none;
+  border-radius: 10px;
+  padding: 0 16px;
+  color: var(--color-subtitle);
+  margin-left: 4px;
+  border: 1px solid var(--color-btn-default);
+}
+
+select:focus {
+  outline: none;
+  outline: none;
+  border: 1px solid var(--color-select-border-hover);
+}

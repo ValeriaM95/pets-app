@@ -1,0 +1,43 @@
+.subtitle {
+  color: var(--color-subtitle);
+  margin-top: 1rem;
+}
+
+.subtitle strong {
+  font-weight: 500;
+}
+
+.gridContainer {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.gridContainer div {
+  border-radius: 10px;
+  background-color: var(--color-border-active);
+  height: 10rem;
+}
+
+.breed_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.image_container {
+  position: relative;
+}
+
+.breed_btn {
+  padding: 0.5rem 1.5rem;
+  min-height: 2.5rem;
+  min-width: 10rem;
+  color: var(--color-pink);
+  border: none;
+  background-color: var(--color-btn-default);
+  border-radius: 10px;
+}

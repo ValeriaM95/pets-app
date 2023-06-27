@@ -1,0 +1,29 @@
+.section_title span {
+  background-color: var(--color-pink);
+  color: var(--font-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  padding: 0 1.5rem;
+  border-radius: 10px;
+  margin-left: 4px;
+}
+
+.section_title .non_active {
+  background-color: var(--color-btn-hover);
+  color: var(--color-pink);
+}
+
+.arrowBtn {
+  border: none;
+  outline: none;
+  background-color: var(--color-btn-hover);
+  padding: 6px 8px;
+  border-radius: 10px;
+}
+
+.arrowBtn:hover {
+  cursor: pointer;
+}

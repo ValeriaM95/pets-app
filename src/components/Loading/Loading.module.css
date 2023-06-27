@@ -1,0 +1,19 @@
+.loader {
+  margin: auto;
+  margin-top: 10rem;
+  width: 90px;
+  height: 90px;
+  border: 10px solid var(--color-body-background);
+  border-top-color: var(--color-pink);
+  border-radius: 50%;
+  animation: loading 0.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}

@@ -1,0 +1,110 @@
+.modal_header_wrapper button {
+  margin-bottom: 2rem;
+}
+
+.modal_header h1 {
+  font-weight: 500;
+  color: var(--font-color-main);
+  font-size: 2.75rem;
+  text-align: center;
+  line-height: 3rem;
+}
+
+.subtitle {
+  color: var(--color-subtitle);
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.modal_header p a {
+  text-decoration: none;
+  color: var(--color-pink);
+  font-weight: 400;
+}
+
+.drag_area {
+  margin: 2.5rem auto auto auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-drop-area-info);
+  border-radius: 20px;
+  background-image: url("../../assets/icons/uploadimg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+  height: 22rem;
+  max-width: 75%;
+  border: 2px dashed var(--color-border-active);
+}
+
+.browse {
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  border: none;
+  color: var(--color-subtitle);
+}
+
+.browse:hover {
+  cursor: pointer;
+}
+
+.browse strong {
+  color: #000;
+}
+
+.imgUpload {
+  height: 100%;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: var(--color-pink);
+  border: none;
+  width: 9rem;
+  margin-top: 1rem;
+  border-radius: 0.625rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  padding: 8px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--color-btn-hover);
+  color: var(--color-pink);
+  transition: var(--transition);
+}
+
+.upload_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+div.error {
+  background-color: var(--color-drop-area);
+  border: 2px dashed var(--color-pink);
+}
+
+.info {
+  display: flex;
+  background-color: var(--color-drop-area-info);
+  margin-top: 1rem;
+  width: 100%;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.info p {
+  margin-left: 1rem;
+}

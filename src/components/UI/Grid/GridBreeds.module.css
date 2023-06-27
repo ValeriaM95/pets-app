@@ -1,0 +1,102 @@
+.displayImages {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.displayImages div {
+  background-color: var(--color-select);
+}
+
+.displayImages div:first-child {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.displayImages div:nth-child(4) {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+
+.displayImages div:nth-child(6) {
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.displayImages div:nth-child(10) {
+  grid-row-start: 5;
+  grid-row-end: 7;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.displayImages div:nth-child(11) {
+  grid-row-start: 7;
+  grid-row-end: 9;
+}
+
+.displayImages div:nth-child(14) {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 10;
+}
+
+.displayImages div {
+  border-radius: 10px;
+}
+
+.breed_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.image_container {
+  position: relative;
+}
+
+.breed_btn {
+  padding: 0.5rem 1.5rem;
+  min-height: 2.5rem;
+  min-width: 10rem;
+  display: none;
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--color-pink);
+  border: none;
+  background-color: var(--color-btn-default);
+  border-radius: 10px;
+}
+
+.image_container:hover .breed_btn {
+  display: block;
+}
+
+.breed_btn:hover {
+  cursor: pointer;
+}
+
+.breed_btn a {
+  text-decoration: none;
+  color: var(--color-pink);
+}
+.image_container:hover .overlay {
+  background-color: rgba(255, 134, 142, 0.6);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.3s linear;
+}

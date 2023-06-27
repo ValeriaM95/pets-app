@@ -1,0 +1,56 @@
+.btn_group {
+  position: absolute;
+  left: 50%;
+  bottom: 48%;
+  transform: translateX(-50%);
+}
+
+.left:hover svg path {
+  fill: var(--color-green);
+}
+
+.middle:hover svg path {
+  fill: var(--color-pink);
+}
+
+.right:hover svg path {
+  fill: var(--color-orange);
+}
+
+.btn_group button.left {
+  background-color: var(--color-green);
+  border-radius: 10px 0 0 10px;
+  border-right: 0;
+}
+
+.btn_group button.left:hover {
+  background-color: #c8ffdf;
+}
+
+.btn_group button.middle:hover {
+  background-color: #ffbcc0;
+}
+
+.btn_group button.right:hover {
+  background-color: #ffeac3;
+}
+
+.btn_group button:hover {
+  cursor: pointer;
+}
+
+.btn_group button.middle {
+  background-color: var(--color-pink);
+  border-right: 0;
+}
+
+.right {
+  background-color: var(--color-orange);
+  border-radius: 0 10px 10px 0;
+}
+
+.btn_group button {
+  width: 60px;
+  height: 60px;
+  border: 2px solid #fff;
+}

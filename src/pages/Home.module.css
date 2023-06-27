@@ -1,0 +1,22 @@
+.background {
+  /* background: var(--color-border-active);
+  margin-left: 6rem; */
+  /* position: absolute; */
+  /* margin-right: 0;
+  width: 88%;
+  height: calc(100vh - 3.75rem);
+  right: 1.875rem;
+  top: 1.875rem;
+  bottom: 1.875rem;
+  border-radius: 20px; */
+}
+
+.home_section {
+  height: calc(100vh - 3.75rem);
+  border-radius: 20px;
+  width: 100%;
+  background-image: url(../assets/girl-and-pet.svg),
+    linear-gradient(var(--color-home-bg), var(--color-home-bg));
+  background-repeat: no-repeat;
+  background-size: cover;
+}

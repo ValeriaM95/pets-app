@@ -1,0 +1,22 @@
+.btn {
+  align-self: end;
+  height: 2rem;
+  width: 2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: var(--color-card-bg);
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--color-btn-hover);
+  transition: var(--transition);
+}
+
+.btn:active {
+  background-color: var(--color-pink);
+}
+
+.btn:active svg path {
+  fill: white;
+}

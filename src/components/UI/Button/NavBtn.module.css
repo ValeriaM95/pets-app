@@ -1,0 +1,30 @@
+.navBtn {
+  background-color: var(--color-btn-default);
+  width: 100%;
+  border: none;
+  margin: 0.625rem 0;
+  border-radius: 0.625rem;
+}
+
+.navBtn a {
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-pink);
+  font-weight: 500;
+  line-height: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  padding: 8px;
+}
+
+.navBtn:hover {
+  background-color: var(--color-btn-hover);
+  transition: var(--transition);
+}
+
+.navBtn a.active {
+  background-color: var(--color-pink);
+  border-radius: 0.625rem;
+  color: white;
+}
