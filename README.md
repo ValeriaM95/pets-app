@@ -11,3 +11,7 @@ React, firebase, 3rd party API "The Dog API" (https://www.thedogapi.com/)
 ![6](https://github.com/ValeriaM95/pets-app/assets/108786717/4fde9f17-a930-4665-8d7a-2d95ae22ec62)
 ![7](https://github.com/ValeriaM95/pets-app/assets/108786717/594606ed-e9fa-49dd-b64b-b0668a372b77)
 ![8](https://github.com/ValeriaM95/pets-app/assets/108786717/d9f578da-40b1-44d1-bf5b-c62dca042079)
+![image](https://github.com/ValeriaM95/pets-app/assets/108786717/6982851d-27a0-437a-8e4c-5857d206975f)
+![image](https://github.com/ValeriaM95/pets-app/assets/108786717/9e5dd040-1a4c-4ed8-9814-e7682952d35c)
+![image](https://github.com/ValeriaM95/pets-app/assets/108786717/8f012d0c-5da6-4503-aff8-930cb3fc6ed0)
+
